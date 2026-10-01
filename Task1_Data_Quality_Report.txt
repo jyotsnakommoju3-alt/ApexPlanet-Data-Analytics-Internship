@@ -1,0 +1,26 @@
+TASK 1 DATA QUALITY REPORT
+
+Dataset: ApexPlanet_DataAnalytics_Dataset.xlsx
+Rows: 1000
+Original columns: 12
+
+Missing values before cleaning:
+- Age: 20
+- City: 13
+- Other columns: 0
+
+Cleaning performed:
+- Age missing values -> median (41)
+- City missing values -> mode (Patna)
+- Dates converted to date format
+- Text fields stripped of extra spaces
+- Exact duplicate rows: 0
+- Repeated Order_ID records: 9 rows flagged
+- Total_Sales formula mismatches: 0
+- Total_Sales IQR outliers: 19
+
+Deliverables created:
+1. Cleaned Excel workbook
+2. Data dictionary
+3. Cleaning script
+4. README for GitHub
